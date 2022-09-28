@@ -1,0 +1,64 @@
+@media only screen and (max-width: 400px) {
+  
+}
+body {
+  background-color: rgba(224,224,212,60%);
+  color: rgba(0,0,0,90%);
+  font-family: "Times New Roman", Garamond, Arial;
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 24px;
+  color: rgba(24,24,24, 80%);
+}
+
+h3 {
+  font-size: 20px; 
+  color: rgba(48,48,48, 86%);
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+code {
+  display: block;
+  background-color: #E5F9FB;
+  border: 1px solid;
+  border-radius: 4px;
+}
+#main-doc {
+  position: absolute;
+  margin-left: 270px;
+  margin-bottom: 90px;
+
+}
+.main-section {
+  border-bottom: 3px solid black;
+}
+#navbar {
+  position: absolute;
+  border-right: 2px solid black;
+  top: 0px;
+  left: 0px;
+  width: 250px;
+  max-width: 250px;
+  height: 100%;
+  backgroud-color: white;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px;
+  border: 2px dashed;
+}
+#navbar ul {
+   list-style-type: none;
+}
+.nav-link {
+  
+}
