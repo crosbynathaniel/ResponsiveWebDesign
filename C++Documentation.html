@@ -1,0 +1,114 @@
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<body>
+  <nav id="navbar">
+    <header>
+      <h3>C/C++ Documentation</h3>
+        </header>
+    <ul>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li><a class="nav-link" href="#Why_Learn_C_and_C++?">Why Learn C and C++?</a></li>
+    <li><a class="nav-link" href="#C_versus_C++">C versus C++</a></li>
+    <li><a class="nav-link" href="#Basics">Basics</a></li>
+    <li><a class="nav-link" href="#Libraries">Libraries</a></li>
+    </ul>
+  </nav>
+  <main id="main-doc">
+    <section id="Introduction" class="main-section">
+      <header>
+        <h2>Introduction</h2>
+      </header>
+      <p>C/C++ are two languages used for the development of computer programs. They are among the most widely used programming languages, and certainly some of the oldest continuously-used languages.</p>
+      <p></p>
+    </section>
+    <section id="Why_Learn_C_and_C++?" class="main-section">
+      <header>
+        <h2 >Why Learn C and C++?</h2>
+      </header>
+      <p>People choose to learn C and C++ for a variety of reasons. The most common reasons are:</p>
+      <ul>
+        <li><p>Learning materials are widely available</p></li>
+        <li><p>They're powerful and fast</p></li>
+        <li><p>Employers are always looking to hire C/C++ programmers.</p></li>
+      </ul>
+    </section>
+    <section id="C_versus_C++" class="main-section">
+      <header>
+        <h2>C versus C++</h2>
+      </header>
+      <p>There are several differences between C and C++. C++ is based around object-oriented programming using classes. Classes are objects that can hold and manipulate data using variables and functions.</p>
+      <p>C relies on functional programming, and so classes are not present. However, C does have what's called a <i>data structure</i>, which is represented as <i>struct</i>. A struct is not able to use functions within itself, but it can still store data.</p>
+    </section>
+    <section id="Basics" class="main-section">
+      <header>
+        <h2>Basics</h2>
+      </header>
+      <p>Let's go on a brief dive into the basics of C/C++. </p>
+      <p>All C/C++ programs must have the <i>main</i>() function. This function is, true to its name, the main place your program runs. A typical main() function looks like this:</p>
+      <code>int main(int argc, char** argv[]);</code>
+      <p>The arguments in parenthesis are optional.
+      <p>C/C++ programs, like most programming languages, have variables, functions, and the aforementioned structs and classes. Since C and C++ are strongly-typed languages, every variable's type has to be declared during initialization, like so.</p>
+      <code>int number = 11;</code>
+      <p>There are functions where you can code outside the confines of int main(). You do this by first declaring the return type (what the function outputs) and then typing the function name. An example would be:</p>
+      <code>void doStuff();</code>
+      <p>There are also classes, which look like:</p>
+      <code>
+        class CExample <br>
+        { <br>
+        public: <br>
+          CExample(); <br>
+          ~CExample(); <br>
+        private: <br>
+          int iExampleNumber; <br>
+          int calcExampleNumber(); <br>
+        }
+      </code>
+      <p>For structs, it would look like:</p>
+      <code>
+        typedef struct SExample { <br>
+          int iExampleNum; <br>
+        }
+      </code>
+      <p>There are also preprocessor directives, which can be used to include other C/C++ files, define constants, or to provide messages to the compiler.</p>
+      <p>With all this said, let's see how a simple "Hello World!" program would look like in C/C++.</p>
+      <p>For C:</p>
+      <code>
+        #include &lt;stdio.h&gt;<br>
+        int main()<br>
+        {<br>
+         printf("Hello World!")<br>
+        }
+      </code>
+      <p>And in C++</p>
+      <code>
+        #include &lt;iostream.h&gt;<br>
+        int main()<br>
+        {<br>
+           std::cout &lt;&lt; "Hello World!" &lt;&lt; endl;<br>
+        }
+      </code>
+    </section>     
+    <section id="Libraries" class="main-section">
+      <header>
+        <h2>Libraries</h2>
+      </header>
+      <p>C/C++ have two different libraries to use, depending on which language you are working with.</p>
+      <ul>
+        <li>The C Standard Library</li>
+        <li>The Standard Template Library (STL)</li>
+      </ul>
+      <p>The C Standard Library relies on functions, structs, and preprocessor definitions to provide helpful ways to make applications.</p>
+      <p>In a similar vein to the Standard Library, the Standard Template Library, made for C++, uses classes and templates to provide helper objects like vector, queues, stacks, and deques.</p>
+    </section>
+    
+  </main>
+  
+  
+</body>
